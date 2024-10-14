@@ -1,0 +1,80 @@
+
+#content {margin: auto;
+    width: 60%;
+    border: 3px solid darkblue;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    position: relative;
+    top: 10vh;
+    bottom: 20vh;
+    display: flex;             
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;       
+    
+}
+
+#title {color: lightblue;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cityButton {
+       width: 15%;
+       padding: 10px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       cursor:pointer;
+       transition: background-color 0.3s ease;
+       left: 50vh;
+       margin: 5vh;
+       border-radius: 25px;
+}
+
+#cityButton:hover {
+    background-color: gray;
+}
+
+#citySearch {margin: auto;
+       width: 60%;
+       padding: 10px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: center;
+       margin-top: 5vh;
+       
+}
+
+#image {width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+    margin: 0 auto 10px;
+}
+body {background-color: lightblue;}
+
+p {
+    color: white;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+
+
